@@ -19,21 +19,26 @@
     opacity: 90%;
 }
 
-.location, .amenity {
+.locations, .amenities {
     height: 100%;
     width: 25%;
     float: left;
 }
 
-.location {
+.locations {
     border-right: 1px solid #DDDDDD;
 }
 
-.location h3, .amenity h3 {
+.locations h3, .amenities h3 {
     font-weight: 600;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 0px;
 }
 
-.location h4, .amenity h4 {
+.locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
+    margin-left: 40px;
+    margin-top: 5px;
 }
