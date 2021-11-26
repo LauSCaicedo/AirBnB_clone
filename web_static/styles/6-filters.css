@@ -27,6 +27,7 @@
 
 .locations {
     border-right: 1px solid #DDDDDD;
+    padding-right: 40px;
 }
 
 .locations h3, .amenities h3 {
@@ -52,11 +53,15 @@
     list-style:none;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
 }
 
-h2 {
+ul.popover h2 {
     font-size: 16px;
+    margin-left: -15px;
 }
+
+
 
 .locations:hover .popover {
     display: block;
@@ -67,3 +72,7 @@ h2 {
     display: block;
 }
 
+.places {
+    margin-bottom: 550px;
+    padding-bottom: 550px;
+}
