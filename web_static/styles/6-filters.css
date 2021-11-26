@@ -61,8 +61,6 @@ ul.popover h2 {
     margin-left: -15px;
 }
 
-
-
 .locations:hover .popover {
     display: block;
 }
@@ -73,6 +71,8 @@ ul.popover h2 {
 }
 
 .places {
-    margin-bottom: 550px;
-    padding-bottom: 550px;
+    margin-bottom: 930px;
+    padding-bottom: 930px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
